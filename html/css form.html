@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sign up</title>
+        <style>
+            body
+            {
+                background-color:aqua;
+            }
+            textarea{
+               width: 200px;
+               height: 200px;
+               background-color: azure;
+               border:1px solid black;
+
+            }
+           .registration_form{
+                text-align: center;
+            }
+            h1{
+                text-align: center;
+            }
+            
+            .firstname{
+                width: 700px;
+            }
+
+            
+            
+        </style>
+    </head>
+    <body>
+        <h1>registration_form</h1>
+        <div class="registration_form">
+        <form >
+           <div class="firstname"> 
+            <label for="firstname">firstname:</label></div>
+            <input type="text" id="firstname" name="firstname" required style="width: 300px;">
+            <br><br>
+            <label for="secondname">secondname:</label><br>
+            <input type="text" id="secondname" name="secondname" required>
+            <br><br>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="mobile">mobile:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+            <br><br>
+            <label for="gender">gemder:</label>
+            <input type="radio" id="gender" name="male: value="select gender">
+            <label for="male">male</label>
+            <input type="radio" id="gender" name="female" value="select gender">
+            <label for="female">female</label>
+            <input type="radio" id="gender" name="other" value="select gender">
+            <label for="other">other</label>
+            <br><br>
+            <label for="dob">dob:</label>
+            <input type="date" id="dob" name="dob"> <br><br>        
+            <label for="address">address:</label>
+            <textarea name="adress" id="adress" cols="30" rows="10"></textarea>
+            <br><br>
+            <label for="city">city:</label>
+            <input type="text" id="city" name="city"><br><br>
+            <label for="pincode">pincode:</label>
+            <input type="text" id="pincode" name="pincode"><br><br>
+            <label for="state">state:</label>
+            <select name="state" id="state">
+                <option value="andhra pradesh">andhra pradesh</option>
+                <option value="karnataka">karnataka</option>
+                <option value="kerala">kerala</option>
+                <option value="tamil nadu">tamilnadu</option>
+                <option value="telagana">telagana</option>
+            </select><br><br>
+            <label for="Hobbies">Hobbies:</label>
+            <input type="checkbox" id="Hobbies" name="playing">
+            <label for="playing">playing</label>
+            <input type="checkbox" id="Hobbies" name="singing">
+            <label for="singing">singing</label>
+            <input type="checkbox" id="Hobbies" name="dancing">
+            <label for="sketching">sketching</label><br><br>
+            <label for="qualification">qualification:</label>
+            <input type="checkbox" id="qualification" name="high school">
+            <label for="highschool">highschool</label>
+            <input type="checkbox" id="qualification" name="Higher school">
+            <label for="Higher school">Higher school</label>
+            <input type="checkbox" id="qualification" name="Graduation">
+            <label for="Graduation">Gradution</label>
+            <input type="checkbox" id="qualification" name="Post Graduation">
+            <label for="Post Graduation">Post Graduation</label><br><br>
+            <input type="submit" name="submit">
+            <input type="button" value="reset">
+        </form>
+     </div>  
+    </body>
+</html>
